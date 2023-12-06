@@ -1,19 +1,20 @@
 // Import the functions you need from the SDKs you need
-import { initializeApp } from "firebase/app";
-import { getAuth } from "firebase/auth";
-import { getFirestore } from 'firebase/firestore'
+import { initializeApp } from 'firebase/app';
+import { getAuth } from 'firebase/auth';
+import { getFirestore } from 'firebase/firestore';
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyANEurwaf3mJmVUnyGRyGPIy4IrLkaN69g",
-  authDomain: "ejercicio-react-redux-firebase.firebaseapp.com",
-  projectId: "ejercicio-react-redux-firebase",
-  storageBucket: "ejercicio-react-redux-firebase.appspot.com",
-  messagingSenderId: "127396799765",
-  appId: "1:127396799765:web:1514afeb49752f3388351c"
+  apiKey: 'AIzaSyCd5bAc54M2_pGPNfKnUq22fQb-c1C33Aw',
+  authDomain: 'first-example-auth-ana.firebaseapp.com',
+  projectId: 'first-example-auth-ana',
+  storageBucket: 'first-example-auth-ana.appspot.com',
+  messagingSenderId: '1094666079092',
+  appId: '1:1094666079092:web:5e46118cb01eb9d1fb7a21',
+  measurementId: 'G-43RF4PLZBM',
 };
 
 // Initialize Firebase
